@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { links } from "../model/links";
 import { FaBars, FaTimes } from "react-icons/fa";
 import NavMenu from "./NavMenu";
+import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [show, setShow] = useState<boolean>(false);
@@ -14,12 +15,15 @@ const NavBar = () => {
 
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
-          <li
+          <Link
+            to="home"
+            smooth
+            duration={500}
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-gray-400 hover:scale-105 duration-200"
           >
             {link}
-          </li>
+          </Link>
         ))}
       </ul>
 

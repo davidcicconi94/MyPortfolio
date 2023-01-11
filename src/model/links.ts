@@ -6,22 +6,22 @@ interface LinksProps {
 export const links: LinksProps[] = [
   {
     id: 1,
-    link: "home",
+    link: "inicio",
   },
   {
     id: 2,
-    link: "about",
+    link: "acerca",
   },
   {
     id: 3,
-    link: "projects",
+    link: "proyectos",
   },
   {
     id: 4,
-    link: "certificates",
+    link: "certificados",
   },
   {
     id: 5,
-    link: "contact",
+    link: "contacto",
   },
 ];
