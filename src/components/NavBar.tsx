@@ -16,7 +16,7 @@ const NavBar = () => {
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <Link
-            to="home"
+            to={link}
             smooth
             duration={500}
             key={id}
