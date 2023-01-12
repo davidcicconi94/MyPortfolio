@@ -1,4 +1,3 @@
-import Error from "../pages/Error";
 import Home from "../pages/Home";
 
 interface Route {
