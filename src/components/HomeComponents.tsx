@@ -37,7 +37,7 @@ const HomeComponents = () => {
           <img
             src="/yo.jpg"
             alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 sm:w-2/3 md:w-2/3 mb-12 "
+            className="rounded-2xl mx-auto w-2/4  md:w-2/3 mb-12 "
           />
         </div>
       </div>
