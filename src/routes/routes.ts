@@ -15,10 +15,4 @@ export const routes: Route[] = [
     Component: Home,
     name: "Home",
   },
-  {
-    path: "/*",
-    to: "/*",
-    Component: Error,
-    name: "Error",
-  },
 ];

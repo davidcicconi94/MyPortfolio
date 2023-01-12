@@ -1,6 +1,6 @@
 import React from "react";
 
-const Contact = () => {
+const Contact = (): JSX.Element => {
   return (
     <div
       id="contacto"

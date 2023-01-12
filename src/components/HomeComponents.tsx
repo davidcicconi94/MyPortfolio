@@ -3,7 +3,7 @@ import { home } from "../model/home";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
-const HomeComponents = () => {
+const HomeComponents = (): JSX.Element => {
   return (
     <div
       id="inicio"
