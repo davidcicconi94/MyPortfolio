@@ -19,7 +19,7 @@ const HomeComponents = () => {
 
             <div>
               <Link
-                to="about"
+                to="proyectos"
                 smooth
                 duration={500}
                 className="group text-white w-fit px-8 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-red-700 to-gray-700 cursor-pointer"

@@ -14,12 +14,13 @@ export const links: LinksProps[] = [
   },
   {
     id: 3,
-    link: "proyectos",
+    link: "habilidades",
   },
   {
     id: 4,
-    link: "certificados",
+    link: "proyectos",
   },
+
   {
     id: 5,
     link: "contacto",

@@ -7,6 +7,9 @@ module.exports = {
     fontFamily: {
       signature: "Great Vibes",
     },
+    letterSpacing: {
+      separation: "5px",
+    },
   },
   plugins: [],
 };

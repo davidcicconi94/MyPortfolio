@@ -7,6 +7,7 @@ const NavMenu = ({ handleClick }: any) => {
     <ul className="fixed flex flex-col justify-center items-center md:hidden top-20 right-0 w-1/2 h-1/3 rounded-sm bg-gradient-to-b from-black to-gray-800 text-gray-400">
       {links.map(({ id, link }) => (
         <Link
+          smooth
           onClick={handleClick}
           to={link}
           key={id}
