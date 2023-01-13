@@ -7,7 +7,8 @@ import { Link } from "react-scroll";
 const NavBar = () => {
   const [show, setShow] = useState<boolean>(false);
 
-  const handleClick = () => {
+  const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
     setShow(false);
   };
 

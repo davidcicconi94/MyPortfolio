@@ -8,7 +8,7 @@ const Skills = (): JSX.Element => {
       className="bg-gradient-to-b from-black via-black to-gray-800 w-full h-full"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
-        <div className="mt-5">
+        <div className="mt-5 md:mt-32">
           <p className="md:text-2xl text-base font-bold border-b-2 border-gray-500 p-2 md:inline text-center ">
             Habilidades
           </p>

@@ -1,13 +1,13 @@
 import React from "react";
 import { projects } from "../model/projects";
 
-const Projects = () => {
+const Projects = (): JSX.Element => {
   return (
     <div
       id="proyectos"
       className="md:w-full h-full bg-gradient-to-b from-gray-400 to-gray-700"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full md:h-screen">
         <div className="pb-8 mt-5">
           <p className="md:text-2xl text-base font-bold md:inline text-center border-b-2 p-2 border-red-700">
             Proyectos
