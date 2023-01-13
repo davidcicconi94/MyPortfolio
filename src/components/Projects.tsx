@@ -24,7 +24,7 @@ const Projects = () => {
                 {title}
               </p>
               <div className="h-32">
-                <img src={src} alt="" className="object-cover" />
+                <img src={src} alt="" className="object-cover h-full" />
               </div>
               <div className="flex items-center justify-between p-10 bg-gradient-to-b from-black via-black to-gray-800 ">
                 <a href={deployLink} target="_blank" rel="noreferrer">
