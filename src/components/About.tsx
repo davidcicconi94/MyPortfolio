@@ -30,7 +30,7 @@ const About = () => {
           <p className="md:text-xl  text-base mb-5">
             En el año <b>2021</b>, participé de <b>Argentina Programa</b> con
             tecnologías como Angular, Java, Spring. También fui parte de un
-            bootcamp presencial dictado por <b>Redjar ltda</b>.
+            bootcamp presencial de Angular dictado por <b>Redjar ltda</b>.
           </p>
           <p className="md:text-xl  text-base ">
             En <b>2022</b> me recibí como Full stack developer en <b>Henry</b>,
@@ -48,9 +48,9 @@ const About = () => {
               colaboración entre la comunidad.
             </p>
             <p className="md:text-xl mb-10 text-base">
-              Actualmente me encuentro trabajando de forma voluntaria de un
-              proyecto para la empresa <b>Ixalab</b>, como desarrollador
-              Frontend.
+              Trabajé como voluntario para la empresa <b>Ixalab</b> como
+              desarrollador Frontend, culminando exitosamente con una plataforma
+              de trazabilidad de procesos para recicladores.
             </p>
           </p>
         </p>
