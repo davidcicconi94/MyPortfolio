@@ -7,6 +7,12 @@ interface ProjectsProps {
 
 export const projects: ProjectsProps[] = [
   {
+    title: "PaisesApp Angular",
+    src: "paises.png",
+    gitLink: "https://github.com/davidcicconi94/paises-app",
+    deployLink: "https://paises-app-six.vercel.app/",
+  },
+  {
     title: "Portfolio",
     src: "portfolio.png",
     gitLink: "https://github.com/davidcicconi94/MyPortfolio",
