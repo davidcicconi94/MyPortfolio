@@ -4,7 +4,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import NavMenu from "./NavMenu";
 import { Link } from "react-scroll";
 
-const NavBar = () => {
+const NavBar = (): JSX.Element => {
   const [show, setShow] = useState<boolean>(false);
 
   const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {

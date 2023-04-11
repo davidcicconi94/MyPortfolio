@@ -1,8 +1,9 @@
-import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
-const Footer = () => {
+const Footer = (): JSX.Element => {
+  const currentYear: number = new Date().getFullYear();
+
   return (
     <footer className="p-4  shadow md:px-6 md:py-8 bg-black">
       <div className="sm:flex sm:items-center sm:justify-between ">
@@ -38,7 +39,7 @@ const Footer = () => {
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">
-        © David Cicconi - 2023 . Todos los derechos reservados
+        © David Cicconi - {currentYear} . Todos los derechos reservados
       </span>
     </footer>
   );

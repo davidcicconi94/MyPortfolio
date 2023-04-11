@@ -47,10 +47,18 @@ const About = () => {
               Henry, desarrollando una plataforma cuyo objetivo es la
               colaboración entre la comunidad.
             </p>
-            <p className="md:text-xl mb-10 text-base">
+            <p className="md:text-xl mb-5 text-base">
               Trabajé como voluntario para la empresa <b>Ixalab</b> como
               desarrollador Frontend, culminando exitosamente con una plataforma
               de trazabilidad de procesos para recicladores.
+            </p>
+            <p className="md:text-xl mb-10 text-base">
+              Actualmente estoy participando en un equipo completo de trabajo en{" "}
+              <b>No Country</b>, bajo la metodología scrum, usando tecnologías
+              como NodeJS, Express, Typescript, PostgreSQL y Sequelize.
+              <p>
+                También formo parte de los <b>Team leaders</b>.
+              </p>
             </p>
           </p>
         </p>

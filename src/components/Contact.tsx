@@ -24,14 +24,17 @@ const Contact = (): JSX.Element => {
               name="name"
               placeholder="Nombre"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              required
             />
             <input
               type="text"
               name="email"
               placeholder="Email"
               className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              required
             />
             <textarea
+              required
               name="message"
               placeholder="Mensaje"
               rows={10}

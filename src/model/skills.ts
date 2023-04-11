@@ -62,4 +62,10 @@ export const skills: SkillsProps[] = [
     title: "MongoDB",
     style: "shadow-green-600",
   },
+  {
+    id: 10,
+    src: "postgres.png",
+    title: "PostgreSQL",
+    style: "shadow-blue-600",
+  },
 ];
