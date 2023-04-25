@@ -1,6 +1,6 @@
 import React from "react";
 
-const About = () => {
+const About = (): JSX.Element => {
   return (
     <div
       id="acerca"
@@ -53,12 +53,9 @@ const About = () => {
               de trazabilidad de procesos para recicladores.
             </p>
             <p className="md:text-xl mb-10 text-base">
-              Actualmente estoy participando en un equipo completo de trabajo en{" "}
-              <b>No Country</b>, bajo la metodología scrum, usando tecnologías
-              como NodeJS, Express, Typescript, PostgreSQL y Sequelize.
-              <p>
-                También formo parte de los <b>Team leaders</b>.
-              </p>
+              Actualmente estoy en la última etapa de un simulador de trabajo
+              llamado <b>No Country</b>. Donde participo como Backend Developer
+              y Team Leader.
             </p>
           </p>
         </p>

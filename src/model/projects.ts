@@ -7,6 +7,12 @@ interface ProjectsProps {
 
 export const projects: ProjectsProps[] = [
   {
+    title: "CMC - Citas Médicas",
+    src: "citas-project.jpg",
+    gitLink: "https://github.com/No-Country/C10-32-m-mern",
+    deployLink: "https://c10-32-m-mern.vercel.app/",
+  },
+  {
     title: "PaisesApp Angular",
     src: "paises.png",
     gitLink: "https://github.com/davidcicconi94/paises-app",

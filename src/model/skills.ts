@@ -26,33 +26,33 @@ export const skills: SkillsProps[] = [
   },
   {
     id: 4,
-    src: "react.png",
-    title: "React",
-    style: "shadow-blue-400",
-  },
-  {
-    id: 5,
     src: "ts.png",
     title: "Typescript",
     style: "shadow-blue-700",
   },
   {
+    id: 5,
+    src: "react.png",
+    title: "React",
+    style: "shadow-blue-400",
+  },
+  {
     id: 6,
+    src: "nextjs.png",
+    title: "Next.js",
+    style: "shadow-gray-400",
+  },
+  {
+    id: 7,
     src: "angular.png",
     title: "Angular",
     style: "shadow-red-700",
   },
 
   {
-    id: 7,
-    src: "tailwind.png",
-    title: "Tailwind",
-    style: "shadow-green-300",
-  },
-  {
     id: 8,
     src: "node.png",
-    title: "Node",
+    title: "Node.js",
     style: "shadow-green-400",
   },
 
